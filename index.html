@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exam2.html">
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        background-color:rgb(49, 42, 42,0.5);
+        color: white;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: 1050px;
+    }
+
+    nav ul {
+        list-style: none;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 10px 50px 10px 0;
+        font-size: 20px;
+        
+        cursor: pointer;
+
+    }
+    button{
+        cursor: pointer;
+        font-size:20px;
+        background-color: black;
+        color: red;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+    .container{
+        text-align: center;
+        position: relative;
+        bottom: 800px;
+    }
+    .container h1{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+    .container p{
+        color: white;
+    }
+    .container input{
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .container button{
+        padding: 8px 20px;
+        background-color: brown;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <video src="./video.mp4" controls autoplay></video>
+        <nav>
+            <ul>
+                <li>Kool Form pack</li>
+                <li>Stay connected</li>
+                <li><img src="./instagram (2).png" alt=""></li>
+                <li><img src="./twitter.png" alt=""></li>
+                <li><img src="./facebook-app-symbol.png" alt=""></li>
+        
+            </ul>
+            <div>
+                <button>Notifym me</button>
+        
+
+            </div>
+           
+        </nav>
+        <div class="container">
+            <h1>Create an account</h1><br>
+            
+            <input type="text" id="Fullname" name="Fullname" placeholder="Fullname">
+            
+            <input type="text" id="Email" name="email" placeholder="Email address">
+            <br><br>
+            <input type="text" id="passwd" name="passwd" placeholder="password">
+            <br><br>
+            <p>I agree to the term and services</p>
+            <br>
+            <button>Submit</button><p>already have an account login</p>
+            
+        
+
+
+        </div>
+       
+    </header>
+    
+</body>
+</html>
